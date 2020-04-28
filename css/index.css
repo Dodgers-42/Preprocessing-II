@@ -168,11 +168,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  display: flex;
+}
 .navbar {
   border: 1px solid red;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   font-size: 16px;
+  width: 60%;
 }
 .navbar a {
   text-decoration: none;
@@ -234,4 +239,8 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.default-code {
+  display: flex;
+  justify-content: space-between;
 }
