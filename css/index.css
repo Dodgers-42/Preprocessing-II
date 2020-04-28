@@ -1,10 +1,11 @@
 .btn {
   text-decoration: none;
-  font-size: 2.5rem;
-  font-weight: 900;
+  font-size: 2rem;
+  font-weight: 700;
   color: white;
   background-color: teal;
-  padding: 0.5em 1em;
+  padding: 0.5em 2.5em;
+  border-radius: 12px;
 }
 #element {
   display: flex;
@@ -253,7 +254,15 @@ header {
   width: 30%;
   margin-bottom: 30px;
 }
-.default-code {
-  display: flex;
-  justify-content: space-between;
+.header {
+  width: 75%;
+  margin: 0 auto 30px;
+}
+.bus {
+  width: 75%;
+  margin: 0 auto 30px;
+}
+.top-content {
+  width: 75%;
+  margin: 0 auto 30px;
 }
