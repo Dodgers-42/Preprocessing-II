@@ -5,4 +5,22 @@
     justify-content: space-between;
     }
     
-    
+.btn {
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:white;
+    background-color: teal;
+    padding: .5em 1em;
+
+}
+
+.flex-box(@just){
+    display:flex;
+    justify-content: @just;
+    align-items: center;
+
+}
+#element {
+    .flex-box(flex-start);
+}
