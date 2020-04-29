@@ -2,8 +2,8 @@
   text-decoration: none;
   font-size: 2rem;
   font-weight: 700;
-  color: white;
-  background-color: teal;
+  color: #FFFFFF;
+  background-color: #17A2B8;
   padding: 0.5em 2.5em;
   border-radius: 12px;
 }
@@ -186,7 +186,6 @@ header {
   display: flex;
 }
 .navbar {
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -196,6 +195,14 @@ header {
 .navbar a {
   text-decoration: none;
   color: black;
+}
+header {
+  width: 90%;
+  margin: 0 auto 30px;
+}
+header .navbar {
+  width: 60%;
+  margin: 0 auto 30px;
 }
 .footer {
   width: 100%;
@@ -254,15 +261,11 @@ header {
   width: 30%;
   margin-bottom: 30px;
 }
-.header {
-  width: 75%;
-  margin: 0 auto 30px;
-}
 .bus {
-  width: 75%;
+  width: 90%;
   margin: 0 auto 30px;
 }
 .top-content {
-  width: 75%;
+  width: 90%;
   margin: 0 auto 30px;
 }
